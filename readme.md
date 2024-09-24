@@ -8,7 +8,6 @@ This project uses [Playwright](https://playwright.dev/) to automate testing for 
 
     ```bash
     git clone https://github.com/Salts-Spray/Playwright-Automation.git
-    cd saucedemo-playwright
     ```
 
 2. **Install Dependencies**
