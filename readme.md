@@ -7,7 +7,7 @@ This project uses [Playwright](https://playwright.dev/) to automate testing for 
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/your-username/saucedemo-playwright.git
+    git clone https://github.com/Salts-Spray/Playwright-Automation.git
     cd saucedemo-playwright
     ```
 
