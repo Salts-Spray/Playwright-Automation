@@ -1,4 +1,3 @@
-// playwright.config.js
 const { defineConfig, devices } = require('@playwright/test');
 
 module.exports = defineConfig({
@@ -29,7 +28,6 @@ module.exports = defineConfig({
     expect: {
         toHaveScreenshot: {
             threshold: 0.05, // 5% tolerance
-            // stylePath: './tests/screenshot.css', // Optional: apply custom styles
         },
     },
 });

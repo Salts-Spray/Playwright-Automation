@@ -1,9 +1,6 @@
-// axe-test.js
 const base = require('@playwright/test');
 const AxeBuilder = require('@axe-core/playwright').default;
 
-// Extend base test by providing "makeAxeBuilder"
-//
 // This new "test" can be used in multiple test files, and each of them will get
 // a consistently configured AxeBuilder instance.
 exports.test = base.test.extend({
