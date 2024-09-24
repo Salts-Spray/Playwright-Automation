@@ -1,4 +1,3 @@
-// pages/InventoryPage.js
 class InventoryPage {
     /**
      * @param {import('@playwright/test').Page} page

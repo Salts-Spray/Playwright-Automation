@@ -1,4 +1,3 @@
-// pages/CartPage.js
 class CartPage {
     /**
      * @param {import('@playwright/test').Page} page

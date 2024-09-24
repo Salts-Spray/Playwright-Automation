@@ -1,4 +1,3 @@
-// tests/accessibility.spec.js
 const { test, expect } = require('../axe-test'); // Import from the fixture
 const { LoginPage } = require('../pages/LoginPage');
 const { InventoryPage } = require('../pages/InventoryPage');

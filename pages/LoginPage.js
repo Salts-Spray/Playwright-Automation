@@ -1,4 +1,3 @@
-// pages/LoginPage.js
 class LoginPage {
     /**
      * @param {import('@playwright/test').Page} page

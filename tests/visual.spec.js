@@ -1,4 +1,3 @@
-// tests/visual.spec.js
 const { test, expect } = require('@playwright/test');
 const { LoginPage } = require('../pages/LoginPage');
 const { InventoryPage } = require('../pages/InventoryPage');
@@ -23,12 +22,6 @@ test.describe('SauceDemo Visual Tests', () => {
     });
 
     test('Visual Test: Inventory Page', async ({ page, browserName }) => {
-        // Optionally hide dynamic elements if any
-        // await page.evaluate(() => {
-        //     const dynamicElements = document.querySelectorAll('.dynamic-element');
-        //     dynamicElements.forEach(el => el.style.display = 'none');
-        // });
-
         // Take a screenshot with a threshold
         await expect(page).toHaveScreenshot(`inventory-page-${browserName}.png`);
     });

@@ -8,9 +8,10 @@
     "@types/node": "^22.5.5"
   },
   "scripts": {
-      "test": "playwright test",
-      "test:headed": "playwright test --headed",
-      "test:report": "playwright show-report",
-      "update:snapshots": "playwright test --update-snapshots"
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report",
+    "update:snapshots": "playwright test --update-snapshots",
+    "update:headed:snapshots": "playwright test --update-snapshots --headed"
   }
 }

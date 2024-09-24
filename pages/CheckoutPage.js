@@ -1,4 +1,3 @@
-// pages/CheckoutPage.js
 class CheckoutPage {
     /**
      * @param {import('@playwright/test').Page} page
