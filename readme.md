@@ -2,6 +2,14 @@
 
 This project uses [Playwright](https://playwright.dev/) to automate testing for the [SauceDemo](https://www.saucedemo.com/) application.
 
+## Prerequisite
+
+1 **Node.js**
+    https://nodejs.org/en/download/prebuilt-installer/current
+
+2 **Visual Studio Code**
+    https://code.visualstudio.com/download
+
 ## Installation
 
 1. **Clone the Repository**
